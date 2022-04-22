@@ -10,3 +10,5 @@ if [ -d $BASH_CONFIG_DIR ] && [ "$(ls -A $BASH_CONFIG_DIR)" ]; then
         source $filename
     done
 fi
+
+export PATH="/usr/local/bin/:$PATH"
