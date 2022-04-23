@@ -11,4 +11,4 @@ if [ -d $BASH_CONFIG_DIR ] && [ "$(ls -A $BASH_CONFIG_DIR)" ]; then
     done
 fi
 
-export PATH="/usr/local/bin/:$PATH"
+export PATH="/usr/local/bin/:/usr/local/go/bin:$PATH"
